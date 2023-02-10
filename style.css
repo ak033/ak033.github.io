@@ -1,0 +1,315 @@
+img{
+
+    border-radius: 50%;
+    padding-top: 10px;
+    width: 200px; 
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.element1{
+    padding-bottom: 20px;
+   }
+body{
+
+    background-color: beige;
+}
+body.interests{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+
+
+}
+.element{
+    padding-bottom: 10px;
+    margin-left: -63% ;
+    }
+.bold{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 160px; 
+    margin-top: 5px;
+    }  
+
+nav {
+        background-color: rgb(246, 246, 194);
+        position: sticky;
+        top: 10px;
+        width: 100%;
+
+
+      
+      }
+      
+      
+      .navigate {
+        display: flex;
+        justify-content: center;
+
+      }
+      
+      nav ul {
+        list-style-type: none;
+        margin: 17px;
+        padding: 0;
+
+      }
+      
+      nav li {
+        display: inline-block;
+        margin: 0 20px;
+      }
+  a{
+    text-decoration: dotted;
+    }
+
+.container {
+        display: flex;
+        justify-content: center;
+      }
+
+.container-interests{
+
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.left-section-interest-actual{
+    width: 40%;
+    float: left;
+    text-align: center;
+    
+}
+.right-section-interest-actual{
+    width: 40%;
+    float: right; 
+}
+      
+.left-section {
+        width: 60%;
+        padding: 20px;
+      }
+      
+.right-section {
+        width: 40%;
+        padding: 20px;
+        margin-top: 50px ;
+        margin-left: -300px;
+             
+      }
+
+hr{
+
+    margin-left: -30%;
+    
+}
+
+table{
+    width: 100%;
+    margin-left: -65%;
+
+}
+
+.title{
+
+    text-align: left;
+    
+}
+.about-p{
+
+    text-align:left ;
+}
+
+.name{
+    font-weight: bold;
+    margin-top: -170px;
+}
+
+.right-section-education{
+    width: 40%;
+    padding: 20px;
+    
+    
+
+}
+
+.table-education{
+
+    margin-top: 10%;
+    border-spacing: 30px;
+}
+
+p.header-education{
+    margin-left: -60%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p.credentials{
+
+    margin-left: -60%;
+}
+
+label{
+    margin-top: 40px;
+    margin-left: -350px;
+}
+
+p.Skills-header{
+
+    margin-left: -310px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.right-section-interests {
+    width: 60%;
+    padding: 20px;
+    margin-top: -130px ;
+    margin-left: -300px;
+         
+  }
+
+
+
+  .left-section-interest{
+    width: 60%;
+    padding: 40px;
+    margin-top: -200px;
+  }
+
+  hr.long{
+margin-top: -10%;
+margin-bottom: -20%;  }
+  
+.interest-title{
+
+    font-size: 30px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(245, 245, 206);
+    color:black;
+  }
+p#move-center{
+margin-left: 10px;
+
+}
+
+div#bio{
+
+    font-weight:100;
+    font-size: 10px;
+}
+
+div#font{
+    font-size: 50px;
+    font-style:italic;
+    margin-left: -200px;
+}
+
+p.bio{
+
+    margin-left: 90%;
+}
+
+div.interests{
+
+margin-bottom: 300px;
+}
+
+
+  @media all and (max-width: 800px) {
+    /* CSS rules here will only be applied if the screen width is 600px or less */
+  
+    label{
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+    }
+
+   
+   /* .Skills-header{
+
+        padding: -30%;
+        margin-left: -140px;
+    }
+
+    .right-section{
+       margin-top: -830px;
+       margin-left: -300px;
+
+    }
+    hr{
+        margin-top: 360px;
+        width:80%;
+        height: 1px;
+        margin-right: 150px;
+
+    }
+    img{
+        border-radius: 50%;
+        padding-top: 10px;
+        width: 200px; 
+        height: 200px;
+        margin-top: -20px;
+        margin-left: 150px;
+
+
+    }
+    p.Skills-header{
+        margin-left: -310px;
+        font-weight: bold;
+        font-size: 50px;
+        margin-top: 700px;
+
+    }
+
+    div.skills-Name{
+    padding-left: 20%;
+
+
+    } */
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+      
+      .left-section {
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: -170px;
+      }
+      
+      .right-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: -50px;
+        margin-left:250px;
+      }
+      
+      
+
+  }
